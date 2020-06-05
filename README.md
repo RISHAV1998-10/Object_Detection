@@ -26,5 +26,11 @@ When it comes to object detection, popular detection frameworks are
  `$ wget https://pjreddie.com/media/files/yolov3.weights`
 ### Labels
   The yolov3.txt contains the labels of all the 80 classes
-
+## Building Network
+  The network is being build using the config(.cfg) file provided by the author
+  We shall use pytorch to build our own network from scratch.
+  The `DNMmodel.py` and `utils.py` are the files responsible for conversion
+  
+  The OpenCV version of this conversion is : `cv2.dnn.readNet`
+  the arguments to this function is (config,weights) which are yolov3.cfg and yolov3.weights respectively
  
