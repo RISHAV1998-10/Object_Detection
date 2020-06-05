@@ -31,6 +31,6 @@ When it comes to object detection, popular detection frameworks are
   We shall use pytorch to build our own network from scratch.
   The `DNMmodel.py` and `utils.py` are the files responsible for conversion
   
-  The OpenCV version of this conversion is : `cv2.dnn.readNet`
-  the arguments to this function is (config,weights) which are yolov3.cfg and yolov3.weights respectively
+  The OpenCV version of this conversion is : `cv2.dnn.readNet` <br>
+  The arguments to this function is (config,weights) which are `yolov3.cfg` and `yolov3.weights` respectively
  
